@@ -1,0 +1,98 @@
+_{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background-color: rgba(94, 89, 89, 0.692);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    border-radius: 100px;
+}
+a{
+    text-decoration: name;
+    font-size: 30px;
+}
+.sup{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.562);
+
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+.act{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: name;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 5px;
+}
+nav ul li a{
+    color: #ee6c20;
+    position: relative;
+    padding: 5px 0;
+    font-size: 20px;
+}
+nav ul li a:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: .3s;
+    bottom: 0;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    padding: 1% 10px;
+    color: #fff;
+    background-image: linear-gradient(45deg, rgb(241, 60, 130),#ee6c20);
+    font-size: 1px;
+    border-radius: 30px;
+    border-top-right-radius: 0;
+    transition: 0.5%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    margin-left: 990pxs;
+
+}
+img{
+    border-radius: 170px;
+    margin-left: 20px;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 600px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%
+}
+.content .title{
+    color: rgb(243, 193, 29);
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.cont{
+    color: aliceblue;
+}

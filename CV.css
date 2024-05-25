@@ -1,0 +1,45 @@
+body{
+    background-image: url("./fonds/13.jpg");
+    background-position: center;
+    background-size: cover;
+    padding-left: 380px;
+    display: flex;
+}
+.dg{
+    background-color: rgb(255, 255, 255);
+    width: 999PX;
+    height: 1000PX;
+    display: flex;
+    color: aliceblue;
+}
+.identite{
+    background-color: rgb(247, 126, 28);
+    width: 333PX;
+    text-align: center;
+
+}
+.identite img{
+    padding-top: 140px;
+    text-align: center;
+
+}
+.infox{
+    background-color: rgba(58, 63, 63, 0.87);
+    width: 733PX;
+}
+.exp{
+    background-color: cornflowerblue;
+    padding-left: 50px;
+}
+.etude{
+    background-color: cornflowerblue;
+    padding-left: 50px;
+}
+.autref{
+    background-color: cornflowerblue;
+    padding-left: 50px;
+}
+.langues{
+    background-color: cornflowerblue;
+    padding-left: 50px;
+}
